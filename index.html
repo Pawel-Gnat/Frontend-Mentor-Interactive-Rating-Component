@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Frontend Mentor Interactive Rating Component</title>
+	<link rel="icon" type="image/png" href="./images/favicon-32x32.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+	<main>
+		<div class="rating-card">
+
+			<div class="rate-view">
+				<img src="./images/icon-star.svg" alt="" aria-hidden="true" class="rate-view--star-icon">
+				<h1 class="rate-view--heading">How did we do?</h1>
+				<p class="rate-view--text">Please let us know how we did with your support request. All feedback is
+					appreciated to help us improve our offering!</p>
+				<div class="rate-view__rating-section">
+					<!-- <button class="rate-view__rating-section--rate">1</button>
+					<button class="rate-view__rating-section--rate">2</button>
+					<button class="rate-view__rating-section--rate">3</button>
+					<button class="rate-view__rating-section--rate">4</button>
+					<button class="rate-view__rating-section--rate">5</button> -->
+					<input type="radio" name="rate"><label>1</label>
+					<form class="rating">
+						<input type="radio" name="rating" value="2">2
+					</form>
+
+
+				</div>
+				<button type="submit" class="rate-view--submit">submit</button>
+			</div>
+
+			<div class="result-view">
+				<img src="./images/illustration-thank-you.svg" alt="Phone image with paycard"
+					class="result-view--image">
+				<span class="result-view--result-text">You selected X out of 5</span>
+				<p class="result-view--heading">Thank you!</p>
+				<p class="result-view--text">We appreciate you taking the time to give a rating. If you ever need
+					more
+					support, don't hesitate to get in touch!</p>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<p>Challenge by <a href="https://www.frontendmentor.io" target="_blank" rel="noopener">Frontend Mentor</a>.
+			Coded by <a href="https://github.com/Pawel-Gnat" target="_blank" rel="noopener">Paweł Gnat</a>.</p>
+	</footer>
+	<script src="./js/main.js"></script>
+</body>
+
+</html>
