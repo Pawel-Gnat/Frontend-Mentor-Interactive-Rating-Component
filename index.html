@@ -23,17 +23,11 @@
 				<p class="rate-view--text">Please let us know how we did with your support request. All feedback is
 					appreciated to help us improve our offering!</p>
 				<div class="rate-view__rating-section">
-					<!-- <button class="rate-view__rating-section--rate">1</button>
+					<button class="rate-view__rating-section--rate">1</button>
 					<button class="rate-view__rating-section--rate">2</button>
 					<button class="rate-view__rating-section--rate">3</button>
 					<button class="rate-view__rating-section--rate">4</button>
-					<button class="rate-view__rating-section--rate">5</button> -->
-					<input type="radio" name="rate"><label>1</label>
-					<form class="rating">
-						<input type="radio" name="rating" value="2">2
-					</form>
-
-
+					<button class="rate-view__rating-section--rate">5</button>
 				</div>
 				<button type="submit" class="rate-view--submit">submit</button>
 			</div>
@@ -41,7 +35,8 @@
 			<div class="result-view">
 				<img src="./images/illustration-thank-you.svg" alt="Phone image with paycard"
 					class="result-view--image">
-				<span class="result-view--result-text">You selected X out of 5</span>
+				<span class="result-view--result-text">You selected <span class="result-view--result-text--rate"></span>
+					out of 5</span>
 				<p class="result-view--heading">Thank you!</p>
 				<p class="result-view--text">We appreciate you taking the time to give a rating. If you ever need
 					more
